@@ -433,6 +433,8 @@ public:
     void setShadowBan(const bool checked);
     QString customizeTrackersListUrl() const;
     void setCustomizeTrackersListUrl(const QString &trackersUrl);
+    bool isCookieExpirationEnabled() const;
+    void setCookieExpirationEnabled(bool enabled);
 
 public slots:
     void setStatusFilterState(bool checked);
